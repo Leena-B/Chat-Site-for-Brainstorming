@@ -1,0 +1,99 @@
+body {
+	overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+ }
+
+.chat {
+	display:inline-block;
+    padding:5px 5px;
+    line-height:120%;
+    font-family: 'Montserrat', sans-serif;
+ 	font-size: 16px;
+}
+ 
+ #left-half {
+    float: left;
+    width: 30%;
+ }
+ 
+ #right-half {
+    float: left;
+    width: 70%;
+    border: 5px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+ }
+
+ #messages {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 16px;
+ }
+
+
+.balloontext{
+	width: 85px;
+	height: 250px;
+	text-align: center;
+	margin: 20px 20px 70px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
+
+.balloon-red{
+	width: 126px;
+	height: 250px;
+	top: 99vh;
+	position: absolute;
+
+	background-image: url(../images/balloon-red.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.balloon-blue{
+	width: 125px;
+	height: 250px;
+	top: 99vh;
+	position: absolute;
+	background-image: url(../images/balloon-blue.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.balloon-violet{
+	width: 125px;
+	height: 250px;
+	top: 99vh;
+	position: absolute;
+	background-image: url(../images/balloon-violet.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.balloon-green{
+	width: 125px;
+	height: 250px;
+	top: 99vh;
+	position: absolute;
+	background-image: url(../images/balloon-green.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+

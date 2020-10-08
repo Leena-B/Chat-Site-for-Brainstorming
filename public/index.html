@@ -1,0 +1,30 @@
+<!-- FILENAME: index.html
+    -----------------------
+    This file contains html to form the website's design
+    and structure, as well as take inputs from the user.
+    This inputs use special ids referenced in chat.js file  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="/socket.io/socket.io.js"></script>
+  <title>Chat Your Ideas!</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="container">
+    <div id="left-half">
+      <input id="userName" class="chat" type="text" placeholder="Name" size="30" maxlength="20" />
+      <input id="message" class="chat" type="text" placeholder="Idea" size="30" maxlength = "60"/>
+      <button id="send" class="chat">Brainstorm!</button>
+      <div id="messages"></div>
+      <div id="typing" class="chat"></div>
+    </div>
+    <div id="right-half">
+    </div>
+  </section>
+  <script src="/chat.js"></script>
+</body>
+</html>
